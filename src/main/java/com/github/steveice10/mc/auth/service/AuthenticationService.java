@@ -15,7 +15,7 @@ import java.util.UUID;
 /**
  * Service used for authenticating users.
  */
-public abstract class AuthenticationService extends Service {
+public class AuthenticationService extends Service {
     protected String accessToken;
     protected boolean loggedIn;
     protected String username;
