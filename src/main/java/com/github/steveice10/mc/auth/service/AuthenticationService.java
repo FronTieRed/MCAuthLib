@@ -136,7 +136,7 @@ public class AuthenticationService extends Service {
      *
      * @throws RequestException If an error occurs while making the request.
      */
-    public abstract void login() throws RequestException;
+    public void login() throws RequestException;
 
     /**
      * Logs the service out.
